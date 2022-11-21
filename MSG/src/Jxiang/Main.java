@@ -5,9 +5,9 @@ package Jxiang;
  */
 public class Main{
     public static void main(String[] args) throws Exception {
-        MSG msg = new MSG();
+        Jxiang.MSG msg = new Jxiang.MSG();
         msg.setAllMoney(2000000); // 20万
-        Menu menu = new Menu();
+        Jxiang.Menu menu = new Jxiang.Menu();
         menu.showMenu(msg);
     }
 }
